@@ -2,6 +2,10 @@
   "name": "angular-quickstart",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.9"
+  },
   "scripts": {
     "build": "tsc -p src/",
     "build:watch": "tsc -p src/ -w",
@@ -21,8 +25,8 @@
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "author": "Eswar",
+  "license": "ISC",
   "dependencies": {
     "@angular/common": "4.0.0",
     "@angular/compiler": "4.0.0",
@@ -42,7 +46,6 @@
     "concurrently": "3.2.0",
     "lite-server": "2.2.2",
     "typescript": "2.1.5",
-
     "canonical-path": "0.0.2",
     "tslint": "3.15.1",
     "lodash": "4.16.4",
@@ -54,7 +57,6 @@
     "karma-jasmine-html-reporter": "0.2.2",
     "protractor": "4.0.14",
     "rimraf": "2.5.4",
-
     "@types/node": "6.0.46",
     "@types/jasmine": "2.5.36"
   },
