@@ -19,7 +19,7 @@
     <tbody>
         <tr>
             <td>
-                <input type="checkbox" class="form-control">
+                <!--<input type="checkbox" class="form-control">-->
             </td>
             <td><input type="text" class="form-control" name="First Name" [(ngModel)]="filter.firstName" placeholder="First Name"></td>
             <td><input type="text" class="form-control" name="Last Name" [(ngModel)]="filter.lastName" placeholder="Last Name"></td>
@@ -39,7 +39,7 @@
         <tr *ngFor="let employee of employees | employeeFilter:filter">
             <td>
                 <div *ngIf="!employee.editMode">
-                    <input type="checkbox" class="form-control">
+                    <!--<input type="checkbox" class="form-control">-->
                     <a (click)="deleteEmployee(employee.id)">
                         <i class="glyphicon glyphicon-trash"></i></a>
                     <a (click)="editEmployee(employee.id)">
