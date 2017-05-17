@@ -12,7 +12,5 @@ module.exports = {
   watchOptions: {
     ignored: 'node_modules'
   },
-  notify:false,
-  https: true,
-  open: false
+  startPath: "/employee"
 };
