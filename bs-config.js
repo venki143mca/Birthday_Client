@@ -14,5 +14,6 @@ module.exports = {
   },
   notify:false,
   https: true,
-  open: false
+  open: false,
+  host: "birthdaydata.herokuapp.com"
 };
